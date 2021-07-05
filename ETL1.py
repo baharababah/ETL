@@ -37,7 +37,7 @@ groupbyAge.show()
 # Load to mysql
 import mysql.connector
 
-db_connection = mysql.connector.connect(user="root", password="Baha123456789@")
+db_connection = mysql.connector.connect(user="root", password="XXXXX")
 db_cursor = db_connection.cursor()
 db_cursor.execute("DROP DATABASE IF EXISTS Friends;")
 db_cursor.execute("CREATE DATABASE Friends;")

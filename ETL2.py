@@ -48,7 +48,7 @@ df = spark.read.format('jdbc').options(
         driver='com.mysql.cj.jdbc.Driver',
         dbtable='count',
         user='root',
-        password='Baha123456789@').load()
+        password='XXXXX').load()
 
 
 print("df")

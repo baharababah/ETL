@@ -40,7 +40,7 @@ byName.show()
 
 # Step 3: Loading
 
-db_connection = mysql.connector.connect(user="root", password="Baha123456789@")
+db_connection = mysql.connector.connect(user="root", password="XXXX")
 db_cursor = db_connection.cursor()
 db_cursor.execute("DROP DATABASE IF EXISTS Vehicles;")
 db_cursor.execute("CREATE DATABASE Vehicles;")
