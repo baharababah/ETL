@@ -38,7 +38,7 @@ aggregate.write.format('jdbc').options(
         driver='com.mysql.cj.jdbc.Driver',
         dbtable='count',
         user='root',
-        password='Baha123456789@').mode('append').save()
+        password='xxxx').mode('append').save()
 
 
 # read from dataBase
